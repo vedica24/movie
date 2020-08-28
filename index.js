@@ -1,6 +1,6 @@
 var movie = document.querySelector(".movieinput");
 var rate = document.querySelector(".rateinput");
-var value_put = document.querySelector("h1 span");
+var value_put = document.querySelector("span");
 var movie_ul = document.querySelector("#movie");
 var rate_ul = document.querySelector("#rate");
 
@@ -19,8 +19,4 @@ value_put.addEventListener("click",function(){
         para2.appendChild(node2);
         rate_ul.appendChild(para2);
 });
-var span = document.querySelectorAll("span");
-span.addEventListener("click",function(event){
-    this.parent().remove();
-    event.stopPropogation();   
-});     
+ 
