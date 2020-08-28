@@ -1,6 +1,6 @@
 var movie = document.querySelector(".movieinput");
 var rate = document.querySelector(".rateinput");
-var value_put = document.querySelector("span");
+var value_put = document.querySelector("h1 span");
 var movie_ul = document.querySelector("#movie");
 var rate_ul = document.querySelector("#rate");
 
